@@ -1,5 +1,3 @@
-# telefon-operatoru-veritabani
-Telefon operatörü için veritabanı tasarımı, SQL scriptleri ve ER diyagramı
 # Telefon Operatörü Veritabanı
 
 Bu proje, bir telefon operatörüne ait veritabanı tasarımı ve temel SQL sorgularını içermektedir.  
