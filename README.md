@@ -18,6 +18,6 @@ Bu proje, bir telefon operatörüne ait veritabanı tasarımı ve temel SQL sorg
 - Microsoft SQL Server veya benzeri bir SQL veritabanı sistemi
 
 ## ER Diyagramı Önizleme
-![ER Diyagramı]()
+![ER Diyagramı](TelefonOperatoruE_R.jpg)
 
 [Detaylı ER diyagramı için PDF’e bakın](VTS_G14_ER_2.pdf)
