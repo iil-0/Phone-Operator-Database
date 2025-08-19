@@ -1,4 +1,4 @@
--- 1. Eðer veritabaný varsa sil
+
 IF DB_ID('TelefonOperatorSistemi') IS NOT NULL
 BEGIN
     ALTER DATABASE [TelefonOperatorSistemi] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
@@ -7,15 +7,15 @@ BEGIN
 END
 GO
 
--- 2. Yeni veritabanýný oluþtur
+
 CREATE DATABASE TelefonOperatorSistemi
 GO
 
--- 3. Kullanýlacak veritabaný olarak ayarla
+
 USE TelefonOperatorSistemi
 GO
 
--- 4. Tablolarý doðru sýrada oluþtur
+
 CREATE TABLE Iller (
     IlID INT IDENTITY(1,1) PRIMARY KEY,
     IlIsmi VARCHAR(50) UNIQUE NOT NULL
@@ -238,7 +238,7 @@ CREATE TABLE SozlesmePaketleri (
 )
 GO
 
--- 5. Döngüsel foreign key'leri sonradan ekle
+
 ALTER TABLE SimKartlar
 ADD CONSTRAINT FK_SimKartlar_Sozlesme
 FOREIGN KEY (SozlesmeID) REFERENCES Sozlesmeler(SozlesmeID);
@@ -248,5 +248,6 @@ ALTER TABLE Sozlesmeler
 ADD CONSTRAINT FK_Sozlesmeler_SimKartlar
 FOREIGN KEY (SimKartlarID) REFERENCES SimKartlar(SimKartID);
 GO
+
 
 
