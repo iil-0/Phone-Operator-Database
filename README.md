@@ -1,21 +1,22 @@
-# Telefon Operatörü Veritabanı
+# Phone Operator Database
 
-Bu proje, bir telefon operatörüne ait veritabanı tasarımı ve temel SQL sorgularını içermektedir.  
+This project contains the database design for a phone operator and basic SQL queries.  
 
-## Dosyalar
-- **create.sql** – Veritabanı tablolarını oluşturan script  
-- **select.sql** – Tablolar üzerinde örnek sorgular  
-- **VTS_G14_ER_2.pdf** – ER diyagramı ve veritabanı tasarım raporu  
+## Files
+- **create.sql** – Script to create the database tables  
+- **select.sql** – Sample queries on the tables  
+- **VTS_G14_ER_2.pdf** – ER diagram and database design report  
 
-## Kullanım
-1. `create.sql` dosyasını çalıştırarak tabloları oluşturun.  
-2. `select.sql` dosyası ile sorguları test edin.  
-3. Tasarımın genel yapısı için `VTS_G14_ER_2.pdf` dosyasına bakabilirsiniz.  
+## Usage
+1. Run the `create.sql` file to create the tables.  
+2. Test the queries using the `select.sql` file.  
+3. For an overview of the database structure, see the `VTS_G14_ER_2.pdf` file.  
 
-## Gereksinimler
-- Microsoft SQL Server veya benzeri bir SQL veritabanı sistemi
+## Requirements
+- Microsoft SQL Server or a similar SQL database system
 
-## ER Diyagramı Önizleme
-![ER Diyagramı](TelefonOperatoruE_R.jpg)
+## ER Diagram Preview
+![ER Diagram](TelefonOperatoruE_R.jpg)
 
-[Detaylı ER diyagramı için PDF’e bakın](VTS_G14_ER_2.pdf)
+[See the detailed ER diagram in the PDF](VTS_G14_ER_2.pdf)
+
